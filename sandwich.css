@@ -1,3 +1,20 @@
+@media (max-width: 800px) {
+    #menuToggle {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    #menu {
+        width: 200px;
+        padding: 70px 30px 30px 30px;
+    }
+
+    form input, form textarea, form button {
+        width: 100%;
+    }
+}
+
 #menuToggle {
     display: block;
     position: relative;
@@ -73,3 +90,4 @@
 #menuToggle input:checked ~ ul {
     transform: none;
 }
+
